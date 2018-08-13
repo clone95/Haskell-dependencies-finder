@@ -8,11 +8,22 @@ Given 2 lists, the first representing installed packages and the second containi
 
 ### Example
 
-installed       dependencies          output
+installed                
 
-5               2 , 4       ----->   for p. 5 and 6 you need
-6               5 , 6                [ 7 , 4 , 6 , 3 ] 
-                6 , 7
-                1 , 2
-                5 , 4 
-                4 , 3
+5                      
+6                                          
+
+dependencies
+
+4 , 3
+5 , 4
+1 , 2
+6 , 7
+5 , 6
+2 , 4
+
+output
+ 
+----->   for p. 5 and 6 you need
+ 
+[ 7 , 4 , 6 , 3 ]

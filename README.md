@@ -8,12 +8,12 @@ Given 2 lists, the first representing installed packages and the second containi
 
 ### Example
 
-installed                
+#### - Installed:                
 
 5                      
 6                                          
 
-dependencies
+#### - Dependencies:
 
 4 , 3
 5 , 4
@@ -22,7 +22,7 @@ dependencies
 5 , 6
 2 , 4
 
-output
+#### - Output:
  
 ----->   for p. 5 and 6 you need
  
